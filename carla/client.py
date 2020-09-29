@@ -230,3 +230,5 @@ def _make_sensor_parsers(sensors):
         else:
             logging.error('unknown sensor type %s', sensor_def.type)
         yield sensor_def
+
+        
