@@ -119,3 +119,5 @@ class CarlaSettings(object):
 
         ini.write(text)
         return text.getvalue().replace(' = ', '=')
+
+    
