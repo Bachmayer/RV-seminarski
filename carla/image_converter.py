@@ -105,3 +105,4 @@ def depth_to_logarithmic_grayscale(image):
     logdepth *= 255.0
     # Expand to three colors.
     return numpy.repeat(logdepth[:, :, numpy.newaxis], 3, axis=2)
+
