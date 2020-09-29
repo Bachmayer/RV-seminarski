@@ -95,3 +95,5 @@ class TCPClient(object):
 
     def _reraise_exception_as_tcp_error(self, message, exception):
         raise TCPConnectionError('%s%s: %s' % (self._logprefix, message, exception))
+
+        
